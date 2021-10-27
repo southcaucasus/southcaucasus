@@ -1,0 +1,535 @@
+
+		html, body, div, span, h1, h2, h3, h4, h5, p, a, img, article, aside, footer, header, img 
+menu, nav, section {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, footer, header, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+
+
+		
+		
+		body{
+			
+			font-family:"Arial Black", Gadget, sans-serif;
+		margin: auto;	
+		font-size: 100%;
+		padding-top: 3%;
+	
+		}
+        #content{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: minmax(10px, auto);
+          grid-column-gap:0;
+          grid-row-gap:0;
+            max-width: 780px;
+            margin: 0 auto;
+            grid-template-areas:
+             "header header header header"                     
+                " aside aside aside aside  "  
+                 "article article article article  "
+                 "nav nav nav nav "
+            "footer footer footer footer  "
+                
+                                         
+               
+                  
+                  ;
+                     
+                  
+        }
+        
+         
+   
+   
+    
+  
+   header{
+        
+         grid-area: header;
+          margin:5%;
+       
+        }
+      
+     .top
+{
+  max-width: 100%;
+  height: auto;
+  float: none;
+ margin-top: 1%;
+
+  }  
+   
+       nav{
+         grid-area: nav;
+        padding-bottom:  3%;
+       
+        margin-right: 10%;
+          margin-left: 10%;
+      
+        }  
+   
+    
+     
+     article{
+          grid-area:article;
+      
+     padding-bottom:  3%;
+       padding-top:  5%;
+        margin-right: 10%;
+          margin-left: 10%;
+       
+       
+        }
+     aside {
+      grid-area:aside;
+      padding-bottom:  3%;
+       padding-top:  5%;
+        margin-left:  10%;
+        margin-right: 10%;
+       text-align: left;
+ 
+     font-size: .8em;
+   
+     }
+     
+ 
+        footer{
+          grid-area:footer;
+      border-top: 2px solid red;
+       text-align: center;
+       font-size: .7em;
+       font-weight: bold;
+     line-height: 140%;
+     
+       margin-bottom: 5%;
+       padding-top:3%;
+       margin-right: 5%;
+        margin-left: 5%;
+        }
+   
+      
+     
+   
+    
+  
+  
+     .middle
+{
+  max-width: 100%;
+  height: auto;
+  float: none;
+ border: 1px solid black;
+ margin-bottom: 3%;
+  
+  }  
+  
+  
+ 
+   
+     .aside{
+     color: #031b4f;
+      line-height: 140%;
+  padding-bottom: 3%;
+   text-align:left;
+   font-size: 1em;
+    font-family: Impact, Charcoal, sans-serif;  
+     }  
+   
+    
+    p {
+
+ color: black;
+
+  line-height: 140%;
+  padding-bottom: 3%;
+   text-align: justify;
+   font-size: .8em;
+   
+}
+   
+    .vopros {
+    
+     padding-top: 2%;
+     font-weight: bold;
+ 
+    } 
+   
+     .link
+   {
+    
+    line-height: 140%;
+  padding-bottom: 3%;
+  
+    padding-right: 20%;
+   text-align: left;
+   font-size: .8em;
+   text-align: justify;
+ 
+    } 
+   
+        
+    .date {
+    
+     text-align: left;
+   font-size: .7em;
+   letter-spacing: 1px;
+    padding-bottom: 2%;
+    }
+   
+    .podpis {
+     font-size: .9em;
+      color: #031b4f;
+     
+    }
+    
+    
+    h1
+  {
+  
+     padding-bottom: 3%;
+     padding-top:  3%;
+  font-weight: bold;
+ text-align: left;
+  	color:red;
+  	font-size: 0.9em;
+  	 line-height: 140%;
+  }
+  
+       
+  
+     
+     
+        
+       
+    h2
+  {
+  
+     padding-bottom: 3%;
+     padding-top: 1%;
+ color: black;
+ font-size: .8em;
+ text-align: left;
+  		 line-height: 140%;
+  }
+     
+     
+     
+ 	a:link, a:visited {
+
+  
+
+color:black;
+    
+  font-weight: bold;
+
+ 
+}
+
+a:hover, a:active {
+  
+   color: #4B0082;
+}	
+		
+      
+     
+   
+        /* desktop grid */
+        @media screen and (min-width: 760px){
+    		
+    		#content{
+    			display: grid;
+    			grid-template-columns: repeat(4, 1fr);
+    			grid-auto-rows: minmax(10px, auto);
+    			 grid-column-gap:0;
+          grid-row-gap:0;
+    			max-width: 780px;
+    			margin: 0 auto;
+                grid-template-areas:
+                             "header header header header "  
+                               "  aside aside  aside .  "  
+                   "article article article .  "
+                "nav nav nav . "
+            "footer footer footer .  "              
+                 
+                               
+                  ;
+    		}
+    		
+   
+  
+   header{
+        
+         grid-area: header;
+  margin:0;
+       
+        }
+      
+     .top
+{
+  max-width: 100%;
+  height: auto;
+  float: none;
+ margin-top:1%;
+
+  }  
+   
+       nav{
+         grid-area: nav;
+      padding-bottom:  3%;
+     
+        margin-right:  5%;
+          margin-left:  20%;
+        }  
+   
+    
+     
+     article{
+          grid-area:article;
+      
+     padding-bottom:  3%;
+       padding-top:  5%;
+        margin-right:  5%;
+          margin-left:  20%;
+       
+       
+        }
+     aside {
+      grid-area:aside;
+      padding-bottom:  3%;
+       padding-top:  5%;
+        margin-right:  20%;
+       margin-left: 0;
+       text-align: left;
+ 
+     font-size: .8em;
+   
+     }
+     
+     
+     
+ 	a:link, a:visited {
+ 
+ 
+
+  color: black;
+  
+  font-weight: bold;
+
+}
+
+a:hover, a:active {
+ 
+   color:#4B0082;
+}	
+		
+     
+     
+ 
+        footer{
+          grid-area:footer;
+      border-top: 2px solid red;
+       text-align: left;
+       font-size: .7em;
+       font-weight: bold;
+   letter-spacing: 1px;
+       margin-bottom: 5%;
+       padding-top:3%;
+          margin-right: 0;
+        margin-left: 0;
+       
+        }
+   
+      
+     
+   
+     
+    
+  
+  
+     .middle
+{
+  max-width: 100%;
+  height: auto;
+  float: none;
+ border: 1px solid black;
+ margin-bottom: 3%;
+  
+  }  
+  
+ 
+   
+     .aside{
+     color: #031b4f;
+      line-height: 140%;
+  padding-bottom: 3%;
+   text-align:left;
+   font-size: 1em;
+    font-family: Impact, Charcoal, sans-serif;  
+     }  
+   
+    
+    p {
+
+ color: black;
+
+  line-height: 140%;
+  padding-bottom: 3%;
+  
+    padding-right: 20%;
+   text-align: left;
+   font-size: .8em;
+   text-align: justify;
+}
+   
+   
+  .vopros {
+    
+     padding-top: 2%;
+     font-weight: bold;
+ 
+    } 
+   
+   .link
+   {
+    
+    line-height: 140%;
+  padding-bottom: 3%;
+  
+    padding-right: 20%;
+   text-align: left;
+   font-size: .8em;
+   text-align: justify;
+ 
+    } 
+        
+    .date {
+    
+     text-align: left;
+   font-size: .7em;
+   letter-spacing: 1px;
+    padding-bottom: 2%;
+    }
+   
+    .podpis {
+     font-size: .9em;
+      color: #031b4f;
+     
+    }
+    
+    
+    h1
+  {
+  
+     padding-bottom: 3%;
+     padding-top:  3%;
+  font-weight: bold;
+ text-align: left;
+  	color: red;
+  	font-size: 1em;
+  	 line-height: 140%;
+  }
+  
+        
+    h2
+  {
+  
+     padding-bottom: 3%;
+     padding-top: 1%;
+ color: black;
+ font-size: .8em;
+ text-align: left;
+  		 line-height: 140%;
+  }
+     
+    h5
+  {
+  	background-color: white;
+  	padding:3%;
+  	margin-top: 3%;
+  
+  	 line-height: 140%;
+  	
+  	font-size: 1em;
+  }
+  
+  
+   
+ 
+   h3
+  {
+  	
+ text-align: right;
+ line-height: 140%;
+  	
+  		font-size: 1em;
+  	background-color: white;
+  	padding:3%;
+  	margin-top: 3%;
+  	margin-left: 50%;
+  }
+ 
+  
+ 
+    
+   h4
+  {
+  	color: white;
+  	padding-top:5%;
+  	padding-bottom: 1%;
+  	margin-right: 30%;
+  		font-size: 1em;
+  		border-bottom: 2px dashed white;
+ text-align: center;
+  line-height: 140%;
+  }
+    
+    
+    
+   
+    
+    
+         
+        }
+        
+        
+        
+		#content > *{
+		
+		
+		
+
+		
+		
+		
+		
+		
+	}		
+			
+		
+   
+
+   
+        
+ 
+   
+        
+  
+    
+  
+ 

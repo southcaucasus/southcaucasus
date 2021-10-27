@@ -1,0 +1,83 @@
+
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p,
+article, aside, footer, header, hgroup, 
+menu, nav, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+
+
+body
+{width:780px;
+	font-size:12px;
+	margin-bottom:0px;
+	overflow: auto;
+	position: relative;
+	margin:auto;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+
+	
+
+  p{ font-size: 10px; margin:0px; line-height: 120%; word-spacing: 1px ;  }
+   p::first-letter {
+    
+    font-size:160%; /* Размер шрифта первого символа */
+    color: red; /* Красный цвет текста */
+   }
+  
+ 
+ a
+{
+	color:#20143e;
+	text-decoration:underline;
+	font-weight:bold;
+}
+ 
+   
+a.home
+{font-size:12px;
+text-decoration: none; 
+color: red;
+ }
+  
+  
+
+a.normal
+{font-size:12px;
+text-decoration: none; 
+ }
+  
+a.small
+{font-size:11px;
+text-decoration: none; 
+ }
+
+
+
+
+
+.uniblock
+{
+	
+	overflow:auto;
+	text-align:left;
+}
+
+.uniblock_image
+{
+	float:left;
+}
+
+.uniblock_text
+{
+	overflow:auto;
+	
+}
+
+
+

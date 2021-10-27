@@ -1,0 +1,93 @@
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<?php
+	$browser= ' '.$_SERVER['HTTP_USER_AGENT'];
+	$texthack="-3px";
+	
+	if(strpos($browser,'MSIE 9.0')!=0) $texthack="-2px";
+	if(strpos($browser,'Safari')!=0) $texthack="-2px";
+	
+?>
+<link href="pages/pagestyle.css" rel="stylesheet" type="text/css" />
+
+<?php
+	$line_height="100%";
+	if(strpos($browser,'MSIE 8.0')!=0 || strpos($browser,'MSIE 9.0')!=0) 
+	$line_height="135%"; // IE 8,9
+	else if(strpos($browser,'MSIE')!=0)
+	$line_height="125%"; // IE 5,6,7
+	else if(strpos($browser,'Opera')!=0)
+	$line_height="135%"; // Opera
+	else if(strpos($browser,'Chrome')!=0)
+	$line_height="136%"; // Chrome
+	else if(strpos($browser,'Firefox')!=0)
+	$line_height="128%"; // Firefox
+	else if(strpos($browser,'Safari')!=0)
+	$line_height="135%"; // Safari
+	/* <?php echo $line_height; ?> */
+	
+?>
+<div class='page'>
+
+<!-- 94 9 94 9 94 9 148 9 94 9 94 9 94 -->
+
+
+
+
+
+
+ <div class='uniblock' style="width:780px;">
+   
+    <div class='uniblock' style="width:780px;">
+  <img class='uniblock_image' src='../I/gugark_poster.jpg' height="300" width="778" style=" float:left; border:1px solid black;padding-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px;
+									  								 margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:40px "  />
+                                                                     
+                                                                       
+                                               
+                                                                     
+                                                                     
+  </div>
+     
+
+<div class='uniblock_text' style=" float:left; padding-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px;
+									  margin-bottom:0px; margin-left:210px; margin-right:0px; margin-top:27px; width:570px; text-align:justify; line-height:<?php echo $line_height; ?>;">
+<strong><div style="color:#F00"> СОДЕРЖАНИЕ</div>
+
+
+<a href="index.php?p=1"><u>Первая часть</u></a><br />
+<a href="index.php?p=54" ><u>Мост между первой и второй частью</u></a><br />
+<a href="index.php?p=58" ><u>Вторая часть</u></a><br />
+<a href="index.php?p=63" ><u>Письма</u></a><br />
+<a href="index.php?p=71" ><u>Эпилог</u></a><br />
+<br />
+<br />
+ <a href="index.php?p=50" ><u>Краснодарский вокзал</u></a> I <a href="index.php?p=51" ><u>Самарский вокзал</u></a> I <a href="index.php?p=52" ><u>Брат и сестра</u></a> I <a href="index.php?p=53" ><u>Расставание</u></a> I <a href="index.php?p=54" ><u>Тбилиси-Рустави</u></a> I <a href="index.php?p=55" ><u>Буфетчица</u></a> I <a href="index.php?p=56" ><u>Газах-Гянджа</u></a> I <a href="index.php?p=57" ><u>Баку</u></a> I <a href="index.php?p=58" ><u>Витязь в тигровой шкуре </u></a> I <a href="index.php?p=59" ><u>Женщины в черном</u></a> I <a href="index.php?p=60" ><u>Почтальонша</u></a> I <a href="index.php?p=61" ><u>Другая обстановка </u></a> I <a href="index.php?p=62" ><u>Ануш</u></a> I <a href="index.php?p=63" ><u>Доброе утро!</u></a> I <a href="index.php?p=64" ><u>Желания</u></a> I <a href="index.php?p=65" ><u>О жизни </u></a> I <a href="index.php?p=66" ><u>Чувство реальности</u></a> I <a href="index.php?p=67" ><u>Ленин</u></a> I <a href="index.php?p=68" ><u>Бессилие</u></a> 
+I <a href="index.php?p=69" ><u>Прощай. А может, пока!</u></a> I <a href="index.php?p=70" ><u>Время покажет мою правоту</u></a> I <a href="index.php?p=71" ><u>5 манат</u></a>
+
+
+
+
+
+
+
+
+ </strong>
+ </div>
+  
+  
+  
+  
+   <div class='uniblock_text' style="float:left;font-size:11px;  padding-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px; margin-bottom:40px; margin-left:210px; margin-right:0px; margin-top:60px; width:360px; text-align:left ">
+ Сеймур Байджан, "Гугарк", 2-е переработанное издание. <br />
+Перевод: Фериджан Яре, редактор: Луиза Погосян.<br />
+ <a href="http://southcaucasus.com/" target="_blank"><strong><u>"Южнокавказская интеграция: Альтернативный старт"</u></strong></a>, 2014  
+ </div>
+  
+  
+
+
+</div>
